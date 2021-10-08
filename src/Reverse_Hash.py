@@ -3,10 +3,7 @@ import itertools
 
 def crack_3_upper_case(og_hash):
     string = 'AAA'
-    char_list = []
-    perm = ""
     b = bytes(string, 'utf-8')
-    #print(hashlib.md5(b).hexdigest())
 
     if og_hash == hashlib.md5(b).hexdigest():
         print(b)
