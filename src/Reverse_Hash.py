@@ -1,6 +1,7 @@
 import hashlib
 import itertools
 
+# **** ADD TIME TRACKER ****
 def crack_3_upper_case(og_hash):
     string = 'AAA'
     b = bytes(string, 'utf-8')
